@@ -11,9 +11,10 @@ body{
     /* レイアウト */
     display: flex; /* 子要素=bodyないのパーツのレイアウトを指定する */
     flex-direction: column; /* 子要素を縦並びにする */
-    justify-content: center; /* 横中央 */
-    align-items: center; /* 縦中央 */
+    justify-content: center; /* 縦中央 */
+    align-items: center; /* 横中央 */
     /* サイズ・余白 */
+    width: 100%;
     /* 色 */
     background-color:hsl(216, 15%, 48%);
     background-color:hsl(212, 45%, 89%);
@@ -26,14 +27,19 @@ body{
 .card{
     /* レイアウト */
     /* サイズ・余白 */
+    max-width: 320px; /* デザインに近いサイズ感 */
+    padding: 16px 0;
     /* 色 */
     background-color:white;
     /* テキスト */
 }
 
-.img{
+.QR-code{
     /* レイアウト */
     /* サイズ・余白 */
+    width: 90%;
+    display: block;
+    margin: 0 auto;
     /* 色 */
     /* テキスト */
 }
