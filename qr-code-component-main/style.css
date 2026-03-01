@@ -1,10 +1,5 @@
 /* style.cssを記載 */
 
-/*  */
-    /* レイアウト */
-    /* サイズ・余白 */
-    /* 色 */
-    /* テキスト */
 
 /* 共通はここに記載 */
 body{
@@ -13,6 +8,8 @@ body{
     flex-direction: column; /* 子要素を縦並びにする */
     justify-content: center; /* 縦中央 */
     align-items: center; /* 横中央 */
+    min-height: 100vh;
+    margin: 0;
     /* サイズ・余白 */
     width: 100%;
     /* 色 */
@@ -66,6 +63,7 @@ p{
 .attribution {
     /* レイアウト */
     /* サイズ・余白 */
+    margin-top: 60px;
     /* 色 */ 
     /* テキスト */
     font-size: 11px; 
