@@ -29,6 +29,7 @@ body{
     /* サイズ・余白 */
     max-width: 320px; /* デザインに近いサイズ感 */
     padding: 16px 0;
+    border-radius: 15px;
     /* 色 */
     background-color:white;
     /* テキスト */
@@ -40,16 +41,16 @@ body{
     width: 90%;
     display: block;
     margin: 0 auto;
+    border-radius: 15px;
     /* 色 */
     /* テキスト */
 }
 
-.h1{
+.h2{
     /* レイアウト */
     /* サイズ・余白 */
     /* 色 */
     /* テキスト */
-    font-size: 32px;
 }
 
 .p{
