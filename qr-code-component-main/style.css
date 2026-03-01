@@ -27,18 +27,19 @@ body{
 .card{
     /* レイアウト */
     /* サイズ・余白 */
-    max-width: 320px; /* デザインに近いサイズ感 */
-    padding: 16px 0;
+    max-width: 320px; 
+    padding: 16px;
     border-radius: 15px;
     /* 色 */
     background-color:white;
     /* テキスト */
+    font-family: "Outfit", sans-serif;
 }
 
 .QR-code{
     /* レイアウト */
     /* サイズ・余白 */
-    width: 90%;
+    width: 100%;
     display: block;
     margin: 0 auto;
     border-radius: 15px;
