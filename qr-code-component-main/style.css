@@ -1,3 +1,35 @@
-body{
-    background-color: red;
+/* style.cssを記載 */
+/*  */
+
+.body{
+    /* レイアウト */
+    /* サイズ・余白 */
+    /* 色 */
+    background-color:hsl(216, 15%, 48%);
+    background-color:hsl(212, 45%, 89%);
+    /* テキスト */
+}
+.card{
+    /* レイアウト */
+    /* サイズ・余白 */
+    /* 色 */
+    background-color:white;
+    /* テキスト */
+}
+
+.attribution {
+    /* レイアウト */
+    /* サイズ・余白 */
+    /* 色 */ 
+    /* テキスト */
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    /* レイアウト */
+    /* サイズ・余白 */
+    /* 色 */
+    color: hsl(228, 45%, 44%); 
+    /* テキスト */
 }
