@@ -32,7 +32,7 @@ body{
     font-family: "Outfit", sans-serif;
 }
 
-.card qr-code{
+.card .qr-code{
     /* レイアウト */
     /* サイズ・余白 */
     width: 100%;
