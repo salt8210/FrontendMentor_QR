@@ -4,7 +4,7 @@
 /* 共通はここに記載 */
 body{
     /* レイアウト */
-    display: flex; /* 子要素=bodyないのパーツのレイアウトを指定する */
+    display: flex; /* 子要素=body内のパーツのレイアウトを指定する */
     flex-direction: column; /* 子要素を縦並びにする */
     justify-content: center; /* 縦中央 */
     align-items: center; /* 横中央 */
@@ -32,7 +32,7 @@ body{
     font-family: "Outfit", sans-serif;
 }
 
-.QR-code{
+.card qr-code{
     /* レイアウト */
     /* サイズ・余白 */
     width: 100%;
@@ -43,7 +43,7 @@ body{
     /* テキスト */
 }
 
-h2{
+.card h1{
     /* レイアウト */
     /* サイズ・余白 */
     /* 色 */
@@ -51,7 +51,7 @@ h2{
     font-size: 26px;
 }
 
-p{
+.card figcaption{
     /* レイアウト */
     /* サイズ・余白 */
     /* 色 */
